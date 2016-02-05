@@ -12,7 +12,9 @@
 ## Grading Outline
 
 Scope Variable Evaluation:
+
 Anonymous Function:
+
 Bookstore Checkout:
 
 
