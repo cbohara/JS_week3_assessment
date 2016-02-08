@@ -27,7 +27,7 @@ I've created a testCase for you on line 34.
 */
 
 function capsLock(val){
-	return string.toUpperCase();
+	return val.toUpperCase();
 };
 
 
@@ -37,5 +37,13 @@ var mutateString = function(func, string){
 
 
 var PROGRAMMINGISFUN = mutateString(capsLock, 'programming is fun');
+// console.log(PROGRAMMINGISFUN);
 
 // your code here:
+
+function lowerCase(val){
+	return val.toLowerCase();
+};
+
+var lowercase = mutateString(lowerCase, 'WHY YOU GOT TO BE SO RUDE?');
+// console.log(lowercase);
